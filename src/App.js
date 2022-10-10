@@ -28,14 +28,14 @@ const App = () => {
         <h1>BMI Calculator</h1>
         <div>
           <input
-            type="text"
+            type="number"
             onChange={(e) => setHeight(e.target.value)}
             placeholder="Height in cm"
           />
         </div>  
         <div>
           <input
-            type="text"
+            type="number"
             onChange={(e) => setWeight(e.target.value)}
             placeholder="Weight in kg"
           />
