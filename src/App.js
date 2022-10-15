@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import  {Button} from '@mui/material';
 import "./App.css"
 
 const App = () => {
@@ -40,7 +41,7 @@ const App = () => {
             placeholder="Weight in kg"
           />
         </div>
-          <button onClick={handleBmi}>Calculate</button>
+          <Button fullWidth variant="contained" onClick={handleBmi}>Calculate</Button>
         <div>  
           <hr></hr>
           <h1>Your BMI is:</h1>
